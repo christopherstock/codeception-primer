@@ -1,10 +1,8 @@
 # Codeception Primer
-
 Tutorial taken from https://codeception.com/docs/Introduction
 
 **Codeception** supports all three testing types.
 Out of the box you have tools for writing **unit**, **functional**, and **acceptance** tests in a unified framework.
-
 That’s why Codeception consists of three so-called “suites”: A “Unit suite” for all unit tests, a “functional suite” for all functional tests, and an “Acceptance suite” for all acceptance tests.
 
 ## Acceptance Tests
@@ -25,3 +23,19 @@ The Codeception framework was developed to actually make testing fun.
 It allows writing unit, functional, integration, and acceptance tests in a single, coherent style.
 All Codeception tests are written in a descriptive manner. Just by looking at the test body,
 you can clearly understand what is being tested and how it is performed.
+
+# Install
+New Composer Project with codeception lib:
+```
+composer require codeception/codeception --dev
+```
+
+Run Codeception:
+```
+php vendor/bin/codecept
+```
+
+Init your testing environment with:
+```
+php vendor/bin/codecept bootstrap
+```
